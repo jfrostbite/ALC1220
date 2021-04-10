@@ -1,5 +1,44 @@
 AppleALC Changelog
 ==================
+#### v1.6.0
+- Added `use-layout-id` property to use `layout-id` as is on Macs
+- Added `use-apple-layout-id` property to use `apple-layout-id` as `layout-id` on Macs
+- Fixed CS4206 and ALC885 support for legacy Macs
+
+#### v1.5.9
+- Added CS4206 layout-id 24 and 60
+- Added 500 Series (0xF0C8 Z590 + Intel 10 Gen) PCH HD Audio Controller
+- Added 500 Series (0x43C8 Z590 + Intel 11 Gen) PCH HD Audio Controller
+- Added ALC289 layout-id 87 for Alienware m15 by GitNaufal
+- Added ALC289 layout-id 15 for Dell 7730 Precision CM240 by MacPeet
+- Added ALC897 layout-id 69 for MSI-Z490-A Pro by mathcampbell
+- Added IDT 92HD95 layout-id 14 for LenovoG710 by Svilen88
+- Added ALC235 layout-id 18 for asrock 310 bb by viorel78
+- Added controller patch for 100 Series (8086:A170) by dhinakg
+
+#### v1.5.8
+- Improved resource packaging by stripping optional tags
+- General enhancement & improvement for ALC230 by Ab2774
+- Added ALC274 layout-id 35 by jackjack1-su
+
+#### v1.5.7
+- Add support for legacy Macs
+- Added ALC289 layout-id 99 for Dell XPS 13 9300 by DalianSky
+- Added ALC225 layout-id 90 for Dell Inspiron 5379 by fast900
+- Added ALC274 layout-id 28 working speakers/mic Maingear Element 3 (TongFang 17 Barebone) by 343iChurch
+- Added ALC256 layout-id 77 for Asus x430_s4300FN by fangf2018
+- Added ALC256 layout-id 88 for Asus x430_s4300FN by fangf2018
+- Fix Mic for ALC221 layout-id 88 HP ProDesk 400 G2 Desktop Mini PC
+- Added ALC897 layout-id 66 for ASUS_PRIME_B460M-K by Dynamix1997
+
+#### v1.5.6
+- Improved `alc-verbs` availability checking
+- Add ALC256 layout-id 67 for Dell OptiPlex 7080
+- Add ALC222 layout-id 11 for HP EliteDesk 800 G6 Mini
+- Add ALC256 layout-id 69 for Xiaomi Pro Enhanced 2019
+- Add ALC235 layout-id 37 for Lenovo IdeaCentre Mini 5
+- CX20751_2 fixed mic gain slider in Big Sur
+
 #### v1.5.5
 - Fixed kext loading issues on 10.8 and similar operating system
 - Added a requirement to inject `alc-verbs` or use `alcverbs=1` argument for custom verbs
