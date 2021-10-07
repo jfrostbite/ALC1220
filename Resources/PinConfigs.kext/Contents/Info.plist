@@ -36,12 +36,7 @@
 					<key>CodecName</key>
 					<string>Toleda -  Realtek ALC1220</string>
 					<key>ConfigData</key>
-					<data>
-					ASccMAEnHQEBJx6mAScfkAFHHBABRx0QAUce
-					IQFHHwEBRwwCAYccQAGHHRABhx6BAYcfAQG3
-					HBABtx0BAbceFwG3H5ABtwwCAecccAHnHRAB
-					5x5BAecfAQ==
-					</data>
+					<data>ASccMAEnHQEBJx6mAScfkAFHHBABRx0QAUceIQFHHwEBRwwCAYccQAGHHRABhx6BAYcfAQG3HBABtx0BAbceFwG3H5ABtwwCAecccAHnHRAB5x5BAecfAQ==</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -59,12 +54,7 @@
 					<key>CodecName</key>
 					<string>Mirone - Realtek ALC1220</string>
 					<key>ConfigData</key>
-					<data>
-					ASccMAEnHQEBJx6mAScfkAFHHBABRx0QAUce
-					IQFHHwEBRwwCAYccQAGHHRABhx6BAYcfAQG3
-					HBABtx0BAbceFwG3H5ABtwwCAecccAHnHRAB
-					5x5BAecfAQ==
-					</data>
+					<data>ASccMAEnHQEBJx6mAScfkAFHHBABRx0QAUceIQFHHwEBRwwCAYccQAGHHRABhx6BAYcfAQG3HBABtx0BAbceFwG3H5ABtwwCAecccAHnHRAB5x5BAecfAQ==</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -82,12 +72,7 @@
 					<key>CodecName</key>
 					<string>MacPeet - ALC1220 for Clevo P950HR</string>
 					<key>ConfigData</key>
-					<data>
-					ASccMAEnHQEBJx6mAScfkAFHHBABRx0QAUce
-					IQFHHwEBRwwCAYccQAGHHRABhx6BAYcfAQG3
-					HBABtx0BAbceFwG3H5ABtwwCAecccAHnHRAB
-					5x5BAecfAQ==
-					</data>
+					<data>ASccMAEnHQEBJx6mAScfkAFHHBABRx0QAUceIQFHHwEBRwwCAYccQAGHHRABhx6BAYcfAQG3HBABtx0BAbceFwG3H5ABtwwCAecccAHnHRAB5x5BAecfAQ==</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -111,7 +96,7 @@
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.kpi.libkern</key>
-		<string>11.0.0</string>
+		<string>10.0.0</string>
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Root</string>
