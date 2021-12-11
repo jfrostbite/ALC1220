@@ -22,10 +22,10 @@
 	<string>1.0.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>HDA Hardware Config Resource</key>
+		<key>as.vit9696.AppleALC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleHDAHardwareConfigDriver</string>
+			<string>as.vit9696.AppleALC</string>
 			<key>HDAConfigDefault</key>
 			<array>
 				<dict>
@@ -34,7 +34,7 @@
 					<key>CodecID</key>
 					<integer>283906592</integer>
 					<key>CodecName</key>
-					<string>Toleda -  Realtek ALC1220</string>
+					<string>Mirone - Realtek ALC1220</string>
 					<key>ConfigData</key>
 					<data>ASccMAEnHQEBJx6mAScfkAFHHBABRx0QAUceIQFHHwEBRwwCAYccQAGHHRABhx6BAYcfAQG3HBABtx0BAbceFwG3H5ABtwwCAecccAHnHRAB5x5BAecfAQ==</data>
 					<key>FuncGroup</key>
@@ -84,11 +84,13 @@
 				</dict>
 			</array>
 			<key>IOClass</key>
-			<string>AppleHDAHardwareConfigDriver</string>
+			<string>AppleALC</string>
 			<key>IOMatchCategory</key>
-			<string>AppleHDAHardwareConfigDriver</string>
+			<string>AppleALC</string>
 			<key>IOProviderClass</key>
-			<string>AppleHDAHardwareConfigDriverLoader</string>
+			<string>IOResources</string>
+			<key>IOResourceMatch</key>
+			<string>IOKit</string>
 		</dict>
 	</dict>
 	<key>OSBundleCompatibleVersion</key>
@@ -96,7 +98,7 @@
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.kpi.libkern</key>
-		<string>10.0.0</string>
+		<string>8.0.0</string>
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Root</string>
