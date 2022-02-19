@@ -1,5 +1,26 @@
 AppleALC Changelog
 ==================
+#### v1.6.9
+- Added 0x100003 revision for ALCS1220A
+- Updated pinconfig ALC897 layout-id 12 by @Sergey-Galan
+- Replace 200 Series PCH HD Audio 0xA2F0 controller patch
+- Update 0xA2F0 controller patch to fix HDMI audio by @Core-i99
+- Improved compatibility of `alc-verb` with Linux `hda-verb`
+- Reduce input gain for mics for layout 20 ALC230
+- Update Pin Config for layout 16 ALC1220
+- Added ALC294 layout-id 44 for ASUS UX534FAC by @narcyzzo
+- Added ALC1220A Layout 13 for Asus ProArt Z690-Creator WiFi by @CaseySJ
+
+#### v1.6.8
+- Replace patch for 500 Series(0x43C8) PCH HD Audio
+- Added ALC269-VC for Samsung NP540U4E #752 by @majonez
+- Added ALC1220A layout 8 for MSI z490i unify by @viorel78
+- Added front panel connections in ALC892 layout 23 for ASRock B365 Pro4 by @TheHackGuy
+- Removed redundant 8086:A171 controller patches by @al3xtjames
+- Fixed wakeconfigdata for ALC236 LayoutID 36 by @volcbs
+- Fixed Combo jack for CX8200 layout-id 80 by @vivzero
+- Added ALC897 layout 11 for GIGABYTE Z590M
+
 #### v1.6.7
 - Added 600-series controller patch by @R-a-s-c-a-l
 - Added ALC282 layout-id 69 for Lenovo IdeaPad Z510 by hoseinrez
@@ -223,7 +244,7 @@ AppleALC Changelog
 #### v1.4.8
 - MaxKernel HS for GM/GP
 - Support startup delay for AppleHDAController via `alc-delay` property or `alcdelay` boot-arg (in ms)
-- Guarded TCSEL change to TC0 with `alctsel=<01 00 00 00>` property or `alctsel=1` boot-arg
+- Guarded TCSEL change to TC0 with `alctcsel=<01 00 00 00>` property or `alctcsel=1` boot-arg
 - Improved performance with Lilu 1.4.3 APIs
 - Added ALC257 layout-id 99 and100 for Lenovo XiaoXin Pro 2019 by DalianSky
 - Added ALC283 layout-id 88 for DELL R14 3437 by Zoran
