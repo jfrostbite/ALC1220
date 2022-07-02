@@ -1,5 +1,27 @@
 AppleALC Changelog
 ==================
+#### v1.7.3
+- Added constants for macOS 13 support
+- Fix sleep breaking earphone support on ALC295 layout-id 13 by Mahas1
+- Fixed NUC8I5BEH JUST MIC ALC235 layout-id 88 by @frozenzero123
+
+#### v1.7.2
+- Added layout-id 97 ALC257 for Lenovo Thinkpad T490 by @savvamitrofanov
+- Update controller patch for 400 series 0x06C8 to fix HDMI audio by @Core-i99
+- Added ALC255(3234) layout-id 255  for Dell Inspiron 5548 by CynCYX
+- Added ALC897 layout-id 77 for ONDA H510 IPC by LewandowskiZ
+- Fix Legion Y9000X 2020 Speaker Mute disabled issue by SukkaW
+
+#### v1.7.1
+- Fixed EAPD for layout 28 ALC269 by @samcabral
+- Fixed wrong file name in ALC287 info.plist
+- Added dump for ALC225 layout 30 by @usr-sse2
+- Added Lenovo M920x for ALC235 LayoutID=72 by @meloay
+- Fixed ALC298 layout-id 11 for Alienware 17 R4 2.1ch by @Rockjesus.cn
+- Fixed MSI MPG Z490 Gaming Plus Sound issue after booting from Windows by @JanoMorano
+- Added NUC8I5BEH JUST MIC layout-id 88 by @frozenzero123
+- Added layout-id 59 ALC292 for Dell M4800 with dockstation support by @hansyao
+
 #### v1.7.0
 - Fix headphones after sleep on Latitude 7390 2-in-1 (ALC225 layout 30)
 - Added `dump_coeff.sh` script in `Tools` to dump processing caps under macOS, plus docs in Wiki
