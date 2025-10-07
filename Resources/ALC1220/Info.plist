@@ -22,14 +22,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Mirone - Realtek ALC1220</string>
-				<key>Id</key>
-				<integer>7</integer>
-				<key>Path</key>
-				<string>layout7.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>MacPeet - ALC1220 for Clevo P950HR</string>
 				<key>Id</key>
 				<integer>13</integer>
@@ -46,14 +38,6 @@
 				<integer>1</integer>
 				<key>Path</key>
 				<string>PlatformsT.xml.zlib</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Mirone - Realtek ALC1220</string>
-				<key>Id</key>
-				<integer>7</integer>
-				<key>Path</key>
-				<string>PlatformsM.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>

@@ -36,7 +36,7 @@
 					<key>CodecName</key>
 					<string>Mirone - Realtek ALC1220</string>
 					<key>ConfigData</key>
-					<data>ASccMAEnHQEBJx6mAScfkAFHHBABRx0QAUceIQFHHwEBRwwCAYccQAGHHRABhx6BAYcfAQG3HBABtx0BAbceFwG3H5ABtwwCAecccAHnHRAB5x5BAecfAQ==</data>
+					<data>ASccUAEnHQEBJx6jAScfmQFHHBABRx0QAUceIQFHHwEBRwwCAYccQAGHHRABhx6BAYcfAQG3HCABtx0BAbceEwG3H5kBtwwCAeccMAHnHRAB5x5FAecfAQ==</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -72,7 +72,7 @@
 					<key>CodecName</key>
 					<string>MacPeet - ALC1220 for Clevo P950HR</string>
 					<key>ConfigData</key>
-					<data>ASccMAEnHQEBJx6mAScfkAFHHBABRx0QAUceIQFHHwEBRwwCAYccQAGHHRABhx6BAYcfAQG3HBABtx0BAbceFwG3H5ABtwwCAecccAHnHRAB5x5BAecfAQ==</data>
+					<data>ASccUAEnHQEBJx6jAScfmQFHHBABRx0QAUceIQFHHwEBRwwCAYccQAGHHRABhx6BAYcfAQG3HCABtx0BAbceEwG3H5kBtwwCAeccMAHnHRAB5x5FAecfAQ==</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
